@@ -6,14 +6,18 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
-    "dev": "parcel src/index.html"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "heroku-postbuild": "npm run build"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "eslint": "^5.12.1",
     "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-import": "^2.16.0",
@@ -21,10 +25,14 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "parcel-bundler": "^1.11.0",
+    "postcss-modules": "^1.4.1",
     "prettier": "^1.16.3",
     "sass": "^1.16.1"
   },
   "dependencies": {
-
+    "axios": "^0.18.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.8.2"
   }
 }

@@ -1,0 +1,29 @@
+@import './constants.scss';
+
+.isActive {
+  background-color: $primaryColor;
+  border-color: $primaryColor;
+  color: #fff;
+}
+
+.isHidden {
+  display: none;
+}
+
+.isDisabled {
+  opacity: 0.5;
+  pointer-events: none;
+  border: none;
+}
+
+.isCached {
+  background-color: $secondaryColor;
+  border-color: $secondaryColor;
+  color: #fff;
+
+  &.isActive {
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+    color: #fff;
+  }
+}

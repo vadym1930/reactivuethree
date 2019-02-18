@@ -1,0 +1,20 @@
+@import './constants.scss';
+
+.cSearch {
+  &__form {}
+
+  &__input {}
+
+  &__submit {
+    color: $primaryColor;
+    border-color: $primaryColor;
+  }
+
+  &__small {
+    i {
+      min-width: 30px;
+      display: inline-block;
+      font-style: normal;
+    }
+  }
+}
