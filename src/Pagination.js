@@ -6,7 +6,6 @@ import u from "./utils.scss";
 export const Pagination = props => {
   let pages = [];
   let offset = -props.limit;
-  console.log(props.list);
   for (let i = 0; i < props.pages; i++) {
     offset += props.limit;
     if (offset >= props.total) {
@@ -27,10 +26,11 @@ export const Pagination = props => {
   return (
     <div>
       <p>
-        Unique UI pattern — mega pager{" "}
+        Unique UI pattern — mega pager.
         <span role="img" aria-label="joke">
           🤪
         </span>
+        &nbsp;Cached pages marked as blue
       </p>
       <div className={styles.cPagination__inner}>{pages}</div>
     </div>
