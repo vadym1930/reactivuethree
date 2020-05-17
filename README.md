@@ -20,7 +20,7 @@ Documented Vue 3 reactivity system essentials.
 -   [Debugging insights](/src/reactivuetythree/debuggin.html)
     (open the debuggin.html, open console and reload, observe breakpoint `e` variable).
 
-### See visual [schema.](https://www.plectica.com/maps/126WN3ECA/edit/6ST1YFTHC)
+### See visual [schema.](https://www.plectica.com/maps/126WN3ECA)
 
 ### Take away points:
 
