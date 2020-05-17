@@ -2,9 +2,10 @@ import React, { Component, Fragment } from 'react';
 import { render } from 'react-dom';
 import './app.scss';
 import './reactivuetythree';
+import img from './assets/og-img.jpg';
 
 const mainStyles = {
-    backgroundImage: 'url("/og-img.b61c9137.jpg")',
+    backgroundImage: `url(${img})`,
     width: '100vw',
     height: '100vh',
     backgroundSize: 'cover',
@@ -21,7 +22,7 @@ class App extends Component {
                     <main style={{ marginBottom: '30px' }}>
                         <h1 style={{ fontWeight: 'normal' }}>
                             [Reacti
-                            <b style={{ color: 'lime' }}>
+                            <b style={{ color: '#42B883' }}>
                                 (v<i style={{ color: '#fff' }}>]</i>ue)
                             </b>
                             3{' '}
