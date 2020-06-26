@@ -1,3 +1,5 @@
+<img src="./src/assets/og-img.jpg" height="auto" width="300" vspace=20 />
+
 # [Reacti(v]ue)3 🤺
 
 Documented Vue 3 reactivity system essentials.
@@ -12,7 +14,7 @@ Documented Vue 3 reactivity system essentials.
 
 ### Did the course by [vuemastery](https://www.vuemastery.com/courses/vue-3-reactivity/vue3-reactivity) and fixed the results here in the repo.
 
-### Go to deployed [web version.](https://morning-meadow-98823.herokuapp.com/)
+### Go to deployed [live demo](https://morning-meadow-98823.herokuapp.com/)
 
 ### See implementation:
 
@@ -25,27 +27,28 @@ Documented Vue 3 reactivity system essentials.
 ### Take away points:
 
 1. Vue 3 reactivity is a separate package which can be used standalone.
-2. There are a few methods exposing by the package, all that four, but
+1. There are a few methods exposing by the package, all that four, but
    simplified methods versions were rebuilt from scratch during the course:
-
     - `computed`
     - `effect`
     - `reactive`
     - `ref`
-
-3. The hierarchy of reactivity system represents by 🎯`targetMap` for storing
-   the reactive objects as a keys and 🏢`depMap` as a value, where key is
-   a reactive property string name and value is a `depSet`🏃 of effects should
-   rerun on property change. (Visual schema attached above).
+1. The hierarchy of reactivity system
+   | 🎯`targetMap` | 🏢`depMap`| `depSet`🏃|
+   |---------------|-----------|------------|
+   |for storing the reactive objects as a keys and 🏢`depMap` as a value| where key is a reactive property string name and value is a `depSet`🏃| effects should rerun on property change |
 
 <br>
 
 ---
 
-PS. Enjoyed learning a lot.
+<details>
+    <summary>PS.</summary>
+<br>
+Enjoyed learning a lot.
 Thanks vuemastery team for doing a great job unblackboxing the Vue.js.
 
-Also checked out wallabyjs.quokka-vscode extension — the one
-is allowing the console.log preview while you are typing — yeees, very cool.
+Also checked out wallabyjs.quokka-vscode extension — the one is allowing the console.log preview while you are typing — yeees, very cool.
+</details>
 
 ---
